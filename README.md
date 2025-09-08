@@ -1,12 +1,13 @@
-# React + Vite
+### Web ohjelmoinnin Todo-kurssitehtävä
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tehtävän tarkoitus oli toteuttaa Todo-sovellus, johon käyttäjät voivat rekisteröityä, kirjautua sisään ja hallita tehtäviä. Tehtäviä on mahdollista luoda, selata ja poistaa. Sovellus sisältää testit perusominaisuuksille ja käyttää erillistä ApiError-luokkaa virheenkäsittelyyn.
 
-Currently, two official plugins are available:
+Teknologiat:
+- Frontend: React (Vite, React)
+- Backend: Node.js + Express
+- Tietokanta: PostgreSQL
+- Muut: bcrypt, JWT-autentikointi, Mocha testaukseen
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Toteutettuna ohjeiden mukaiset 8/8 osiota. [Katso demo YouTubesta.](https://youtu.be/-PV7Cv7MaTY)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

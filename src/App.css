@@ -3,7 +3,11 @@
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
+}
+
+div#signin{
+  padding: 16px;
 }
 
 .delete-button{
@@ -22,6 +26,17 @@ form input {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+input#email{
+  margin-left: 16px;
+  margin-bottom: 7px;
+}
+
+input#password{
+  margin-left: 16px;
+  margin-bottom: 7px;
+}
+
 form input:hover {
   border-color:#89477f
 }
@@ -82,4 +97,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
+button#submit{
+  margin-left: 16px;
+}
