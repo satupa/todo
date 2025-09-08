@@ -1,0 +1,85 @@
+#container{
+  padding: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.delete-button{
+  margin-left: 16px;
+}
+
+form input {
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.3em 1.0em;
+  font-size: 0,5em;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+form input:hover {
+  border-color:#89477f
+}
+
+form input:focus,
+form input:focus-visible {
+  outline: none;
+  border-color: #89477f;
+  box-shadow: 0 0 5px #89477f;
+}
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+
+  color-scheme: light dark;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.3em 1.0em;
+  font-size: 0,5em;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color:#89477f
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
